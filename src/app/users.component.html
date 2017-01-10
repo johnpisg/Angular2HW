@@ -1,0 +1,9 @@
+<h1>
+    Usuarios: {{title}}
+</h1>
+ <ul>
+    <!-- this is the new syntax for ng-repeat -->
+    <li *ngFor="let usuario of usuarios">        
+        {{usuario.Nombre}}
+    </li>
+</ul>
